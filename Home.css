@@ -1,0 +1,123 @@
+.home-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  background-color: #f4f4f4; /* Change as needed */
+}
+
+.header {
+  width: 100%;
+  display: flex;
+  justify-content: space-between; /* Space between logo and options */
+  align-items: center; /* Center vertically */
+  padding: 10px;
+  background-color: #007bff; /* Header background color */
+}
+
+.logo {
+  width: 50px; /* Set the width of the logo */
+  height: auto; /* Maintain aspect ratio */
+}
+
+h1 {
+  margin: 20px 0;
+  font-size: 24px;
+}
+
+.options {
+  margin: 20px 0;
+  text-align: center;
+}
+
+.button {
+  padding: 10px 20px;
+  background-color: #007bff; /* Button color */
+  color: white; /* Text color */
+  text-decoration: none; /* No underline */
+  border-radius: 5px;
+}
+
+.button:hover {
+  background-color: #0056b3; /* Darker on hover */
+}
+
+.services {
+  width: 100%;
+  margin-top: 20px;
+}
+
+.service-options {
+  display: flex;
+  justify-content: space-around; /* Space between services */
+  flex-wrap: wrap; /* Wrap to next line if not enough space */
+}
+
+.service {
+  text-align: center;
+  margin: 10px;
+  flex: 1 0 200px; /* Flex-grow, flex-shrink, and flex-basis */
+}
+
+.service-image {
+  width: 100px; /* Adjust size as needed */
+  height: 100px; /* Maintain aspect ratio */
+  object-fit: cover; /* Ensures the image covers the area */
+  border-radius: 10px; /* Optional: rounded corners */
+}
+
+h2 {
+  margin-bottom: 10px;
+}
+
+.footer {
+  background-color: #343a40; /* Footer background color */
+  color: white; /* Text color for footer */
+  padding: 20px; /* Space around the content */
+  text-align: center; /* Centered text */
+  margin-top: 20px; /* Space above the footer */
+}
+
+.footer-content {
+  max-width: 800px; /* Center the footer content */
+  margin: 0 auto; /* Centering the footer */
+}
+
+.contact-info {
+  margin-top: 10px; /* Space above contact info */
+}
+/* UserDetails.css */
+.user-details-popup {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: white;
+  border: 2px solid #ccc;
+  padding: 20px;
+  z-index: 1000;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.user-details-popup h2 {
+  margin-bottom: 10px;
+}
+
+.user-details-popup button {
+  background: #f44336;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  cursor: pointer;
+}
+
+.user-details-popup button:hover {
+  background: #d32f2f;
+}
+.user-name {
+  cursor: pointer; /* Change cursor to pointer */
+  color: blue; /* Change color to blue */
+  text-decoration: underline; /* Underline to indicate it's a link */
+}
+
+
